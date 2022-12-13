@@ -49,4 +49,4 @@ File Changes
 /src/App.jsx
 
 Files Added 
-/assets/Comp-1_1.gif
+/assets/splash.png
