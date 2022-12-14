@@ -50,37 +50,37 @@ const isValidYerbasAddress = (x) => {
 
 const AUTHORITY_NODES = [
   {
-    "hostname": "n0.yerbas.org",
-    "port": 8443,
-    "walletAddress": "0x4Ba986c8112e9Ede0883aE56edA08437D943b2b7"
+    location: "n0.yerbas.org",
+    port: 8443,
+    walletAddress: "0x4Ba986c8112e9Ede0883aE56edA08437D943b2b7"
   },
   {
-    "hostname": "n1.yerbas.org",
-    "port": 8443,
-    "walletAddress": "0x97a162F40FE98d1b03f80f0055dF24c6580fA183"
+    location: "n1.yerbas.org",
+    port: 8443,
+    walletAddress: "0x97a162F40FE98d1b03f80f0055dF24c6580fA183"
   },
   {
-    "hostname": "n2.yerbas.org",
-    "port": 8443,
-    "walletAddress": "0x12d35055e8A1bd1093ECB16139c79E9Db0f6f1bd"
+    location: "n2.yerbas.org",
+    port: 8443,
+    walletAddress: "0x12d35055e8A1bd1093ECB16139c79E9Db0f6f1bd"
   },
   {
-    "hostname": "n3.yerbas.org",
-    "port": 8443,
-    "walletAddress": "0xE48D61411665ee89890CD904414DEB4f37598553"
+    location: "n3.yerbas.org",
+    port: 8443,
+    walletAddress: "0xE48D61411665ee89890CD904414DEB4f37598553"
   },
   {
-    "hostname": "n4.yerbas.org",
-    "port": 8443,
-    "walletAddress": "0xa0dCF63DfF6417c6CC5b1A37761F28e6a7E701E0"
+    location: "n4.yerbas.org",
+    port: 8443,
+    walletAddress: "0xa0dCF63DfF6417c6CC5b1A37761F28e6a7E701E0"
   },
 ];
-const AUTHORITY_THRESHOLD = 1;
+const AUTHORITY_THRESHOLD = 3;
 const authorityLink = (x) => {
   return `https://${x.location}:${x.port}`;
 };
 
-const CONTRACT_ADDRESS = "0x81762279d0BD77663dC0987A5860D20620020fab";
+const CONTRACT_ADDRESS = "0x8A123F734A7542f625C2Fd9fFBaBC7c90109d72e";
 
 const CONTRACT_ABI = [
   { inputs: [], stateMutability: "nonpayable", type: "constructor" },
@@ -720,7 +720,6 @@ function BscController() {
             className="button button1"
             target="_blank"
             rel="noreferrer"
-            href="https://pancakeswap.finance/swap?outputCurrency=0x81762279d0BD77663dC0987A5860D20620020fab"
           >
             Buy wYerbas (BSC)
           </a>
@@ -728,7 +727,7 @@ function BscController() {
             className="button button1"
             target="_blank"
             rel="noreferrer"
-            href="https://poocoin.app/tokens/0x81762279d0BD77663dC0987A5860D20620020fab"
+            href="https://poocoin.app/tokens/0x8A123F734A7542f625C2Fd9fFBaBC7c90109d72e"
           >
             wYerbas (BSC) Price
           </a>
@@ -831,9 +830,9 @@ function BscController() {
                   </tbody>
                 </table>
                 <br />
-                <p>(* Deposits require 120 confirmations (about 2 hours).)</p>
+                <p>(* Deposits require 60 confirmations (about 2 hours).)</p>
                 <p>
-                  (* The amount here is after a fee deduction of 10 Yerbas +
+                  (* The amount here is after a fee deduction of 1 Yerbas +
                   1% of total deposited amount thereafter)
                 </p>
               </div>
