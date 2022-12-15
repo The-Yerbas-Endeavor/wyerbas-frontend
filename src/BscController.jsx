@@ -966,7 +966,7 @@ function BscController() {
                         </b>
                       </p>
                       <p>
-                        (Each withdrawal is subject to a fee of 10 Yerbas +
+                        (Each withdrawal is subject to a fee of 1 Yerbas +
                         1% of burned amount thereafter)
                       </p>
                     </div>
