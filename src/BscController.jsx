@@ -41,7 +41,7 @@ const isValidYerbasAddress = (x) => {
   if (raw.length !== 25) {
     return false;
   }
-  if (raw[0] !== 0x16 && raw[0] !== 0x1e) {
+  if (raw[0] !== 140 && raw[0] !== 0x1e) {
     return false;
   }
   const checksum = sha256(sha256(raw.slice(0, 21)));
