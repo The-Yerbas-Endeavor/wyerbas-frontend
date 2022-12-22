@@ -399,7 +399,7 @@ function OnboardingButton(props) {
 }
 
 function BscController() {
-  const web3 = new Web3("https://bsc-dataseed.binance.org");
+  const web3 = new Web3("https://bsc-dataseed4.binance.org");
   const contract = new web3.eth.Contract(CONTRACT_ABI, CONTRACT_ADDRESS);
   async function post(link, data) {
     const controller = new AbortController();
@@ -720,6 +720,7 @@ function BscController() {
             className="button button1"
             target="_blank"
             rel="noreferrer"
+            href="https://poocoin.app/tokens/0x8A123F734A7542f625C2Fd9fFBaBC7c90109d72e"
           >
             Buy wYerbas (BSC)
           </a>
