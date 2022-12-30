@@ -29,9 +29,9 @@ export default function Maintenance() {
       <section className="projects min-height-fill" >
         <Container className="py-3 py-lg-5 d-flex flex-column mt-4">
 	      <Row>
-   			<h3 className="mt-4 text-center">We're Sorry.....</h3>
+   			<h3 className="mt-4 text-center">Check back</h3>
             <span className="subtitle mx-auto text-start text-lg-center">
-              We Are Down For Scheduled Maintenance. Please Check Back Later. <br /> <br />
+              Working on getting this running. <br /> <br />
       	      <img alt="" src={MaintLogo} /></span>
           </Row>
         </Container>

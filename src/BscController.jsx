@@ -80,7 +80,7 @@ const authorityLink = (x) => {
   return `https://${x.location}:${x.port}`;
 };
 
-const CONTRACT_ADDRESS = "0x8A123F734A7542f625C2Fd9fFBaBC7c90109d72e";
+const CONTRACT_ADDRESS = "0x2100591c0b692c53a0E11cc328646309e6ea12eF";
 
 const CONTRACT_ABI = [
   { inputs: [], stateMutability: "nonpayable", type: "constructor" },
@@ -720,7 +720,7 @@ function BscController() {
             className="button button1"
             target="_blank"
             rel="noreferrer"
-            href="https://poocoin.app/tokens/0x8A123F734A7542f625C2Fd9fFBaBC7c90109d72e"
+            href="https://pancakeswap.finance/swap?outputCurrency=0x2100591c0b692c53a0E11cc328646309e6ea12eF"
           >
             Buy wYerbas (BSC)
           </a>
@@ -728,7 +728,7 @@ function BscController() {
             className="button button1"
             target="_blank"
             rel="noreferrer"
-            href="https://poocoin.app/tokens/0x8A123F734A7542f625C2Fd9fFBaBC7c90109d72e"
+            href="https://poocoin.app/tokens/0x2100591c0b692c53a0E11cc328646309e6ea12eF"
           >
             wYerbas (BSC) Price
           </a>

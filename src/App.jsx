@@ -1,7 +1,6 @@
 import "./App.scss";
 import BscController from "./BscController";
 import SolController from "./SolController";
-import ReactGA from "react-ga";
 
 // Controls.
 import {
@@ -23,16 +22,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import Maintenance from "./Maintenance";
 
 export default function App() {
- // GA Analytics, Uncomment below, add your GA Measurement ID 	
-{/*
-  ReactGA.initialize("ID-HERE");  <-- Enter GA Measurement ID Here
-  ReactGA.pageview(window.location.pathname + window.location.search);
 
-  const [location, setLocation] = React.useState(null);
-  React.useEffect(() => {
-    setLocation(window.location.pathname);
-  }, []);
-  React.useEffect(() => {}, [location]); */}
 
 const [controller, setController] = React.useState(null);
   
@@ -48,18 +38,18 @@ const [controller, setController] = React.useState(null);
           <Container>
             <Navbar.Brand href="/" className="navbar-brand align-items-center">
               <img alt="" src={YerbasLogo} />
-              <span>YERB</span>
+              <span>Yerbas</span>
               <span className="navbar-brand-subtitle"> Wrap</span>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse>
             <Nav className="ms-auto">
               <Nav.Link
-                href="https://www.yerbas.org"
+                href="https://yerbas.org"
                 target="_blank"
                 rel="noreferrer"
               >
-              <b>Visit Yerbas</b>
+              <b>Yerbas.org</b>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
@@ -72,11 +62,11 @@ const [controller, setController] = React.useState(null);
             <div className="d-flex flex-row py-5">
               <div className="d-flex flex-column me-auto my-4">
                 <h4 className="title text-center">
-                  Wrap Yerbas with SOL or BSC
+                  Wrap YERB with BSC
                 </h4>
                 <h6 className="text-center">
                   Stable, Realiable & Great Exchange Rate 
-                </h6>
+                </h6>    
               </div>
             </div>
            </div>
@@ -85,7 +75,7 @@ const [controller, setController] = React.useState(null);
             <div className="d-flex flex-column py-5">
               <div className="d-flex flex-column me-auto mt-4 mb-auto">
                 <h2 className="title text-center">
-                  Wrap Yerbas with SOL or BSC
+                  Wrap YERB with BSC
                 </h2><br />
                 <h4 className="text-center">
                   Stable, Realiable & Great Exchange Rate 
@@ -137,14 +127,14 @@ const [controller, setController] = React.useState(null);
               >
                 Binance Smart Chain (BSC)
               </Dropdown.Item>
-              <Dropdown.Item
+  {/**            <Dropdown.Item
                 onClick={() => {
                   setController("sol");
                 }}
               >
                 Solana (SOL)
-              </Dropdown.Item>
-            </DropdownButton>
+              </Dropdown.Item>*/}
+            </DropdownButton> 
           </h5>
 	      </FadeInSection>
         </Container>
