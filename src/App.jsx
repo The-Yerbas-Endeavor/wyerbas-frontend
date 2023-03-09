@@ -150,7 +150,7 @@ const [controller, setController] = React.useState(null);
        <section className="section-footer text-center">
             <Row>
               <span>
-                <b>© The Yerbas Endeavor 2022</b> 
+                <b>© The Yerbas Endeavor 2023</b> 
               </span>
             </Row>
         </section>
