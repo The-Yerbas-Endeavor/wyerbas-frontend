@@ -317,12 +317,16 @@ hr {
 .masthead {
   padding-left: 1rem;
   padding-right: 1rem;
-  background: $primary;
+  background: $secondary;
   color: $light;
+
+  .h6{color:#4F7942;}
+  
   .title {
     max-width: 40rem;
     font-weight: bold;
     line-height: 150%;
+    color:#4f7942;
   }
   .lead {
     max-width: 30rem;

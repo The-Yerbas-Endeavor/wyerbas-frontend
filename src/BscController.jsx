@@ -51,27 +51,27 @@ const isValidYerbasAddress = (x) => {
 const AUTHORITY_NODES = [
   {
     location: "n0.yerbas.org",
-    port: 8443,
+    port: 15430,
     walletAddress: "0x4Ba986c8112e9Ede0883aE56edA08437D943b2b7"
   },
   {
     location: "n1.yerbas.org",
-    port: 8443,
+    port: 15430,
     walletAddress: "0x97a162F40FE98d1b03f80f0055dF24c6580fA183"
   },
   {
     location: "n2.yerbas.org",
-    port: 8443,
+    port: 15430,
     walletAddress: "0x12d35055e8A1bd1093ECB16139c79E9Db0f6f1bd"
   },
   {
     location: "n3.yerbas.org",
-    port: 8443,
+    port: 15430,
     walletAddress: "0xE48D61411665ee89890CD904414DEB4f37598553"
   },
   {
     location: "n4.yerbas.org",
-    port: 8443,
+    port: 15430,
     walletAddress: "0xa0dCF63DfF6417c6CC5b1A37761F28e6a7E701E0"
   },
 ];
@@ -720,7 +720,7 @@ function BscController() {
             className="button button1"
             target="_blank"
             rel="noreferrer"
-            href="https://pancakeswap.finance/swap?outputCurrency=0x2100591c0b692c53a0E11cc328646309e6ea12eF"
+            href="https://pancakeswap.finance/swap?outputCurrency=0x2100591c0b692c53a0E11cc328646309e6ea12eF&inputCurrency=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56"
           >
             Buy wYerbas (BSC)
           </a>
@@ -831,7 +831,7 @@ function BscController() {
                   </tbody>
                 </table>
                 <br />
-                <p>(* Deposits require 60 confirmations (about 2 hours).)</p>
+                <p>(* Deposits require 6 confirmations (about 12 minutes).)</p>
                 <p>
                   (* The amount here is after a fee deduction of 1 Yerbas +
                   1% of total deposited amount thereafter)

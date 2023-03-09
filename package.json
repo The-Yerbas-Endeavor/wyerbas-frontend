@@ -1,6 +1,6 @@
 {
-  "homepage": "https://dingocoin.org",
-  "name": "dingoweb",
+  "homepage": "https://wrap.yerbas.org",
+  "name": "wrap.yerbas.org",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,7 +19,6 @@
     "bs58": "^4.0.1",
     "crypto": "^1.0.1",
     "ethereumjs-util": "^7.0.10",
-    "gh-pages": "^3.2.3",
     "node-sass": "6",
     "react": "^18.2.0",
     "react-bootstrap": "^2.0.0-rc.0",
@@ -42,7 +41,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "yarn build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
@@ -62,5 +61,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }

@@ -64,7 +64,7 @@ const [controller, setController] = React.useState(null);
                 <h4 className="title text-center">
                   Wrap YERB with BSC
                 </h4>
-                <h6 className="text-center">
+                <h6 className="h6 text-center">
                   Stable, Realiable & Great Exchange Rate 
                 </h6>    
               </div>
@@ -150,7 +150,7 @@ const [controller, setController] = React.useState(null);
        <section className="section-footer text-center">
             <Row>
               <span>
-                <b>© The Yerbas Endeavor 2022</b> 
+                <b>© The Yerbas Endeavor 2023</b> 
               </span>
             </Row>
         </section>
